@@ -1,46 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\",
+  "WorkspaceRootPath": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|c:\\users\\yoshua\\source\\repos\\reactaspapp\\reactaspapp.client\\src\\assets\\components\\portafoliodashboard\\encabezado.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{4BD8281B-29E7-49AF-A10A-34DAF823B75A}|ReactAspApp.Server\\ReactAspApp.Server.csproj|c:\\users\\yoshua\\documents\\github\\aspreactapp\\reactaspapp\\reactaspapp.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4BD8281B-29E7-49AF-A10A-34DAF823B75A}|ReactAspApp.Server\\ReactAspApp.Server.csproj|solutionrelative:reactaspapp.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD8281B-29E7-49AF-A10A-34DAF823B75A}|ReactAspApp.Server\\ReactAspApp.Server.csproj|c:\\users\\yoshua\\documents\\github\\aspreactapp\\reactaspapp\\reactaspapp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD8281B-29E7-49AF-A10A-34DAF823B75A}|ReactAspApp.Server\\ReactAspApp.Server.csproj|solutionrelative:reactaspapp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD8281B-29E7-49AF-A10A-34DAF823B75A}|ReactAspApp.Server\\ReactAspApp.Server.csproj|c:\\users\\yoshua\\documents\\github\\aspreactapp\\reactaspapp\\reactaspapp.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4BD8281B-29E7-49AF-A10A-34DAF823B75A}|ReactAspApp.Server\\ReactAspApp.Server.csproj|solutionrelative:reactaspapp.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|c:\\users\\yoshua\\documents\\github\\aspreactapp\\reactaspapp\\reactaspapp.client\\src\\assets\\components\\portafoliodashboard\\dashboard\\chart1.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|solutionrelative:reactaspapp.client\\src\\assets\\components\\portafoliodashboard\\dashboard\\chart1.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|c:\\users\\yoshua\\documents\\github\\aspreactapp\\reactaspapp\\reactaspapp.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|solutionrelative:reactaspapp.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|c:\\users\\yoshua\\documents\\github\\aspreactapp\\reactaspapp\\reactaspapp.client\\src\\assets\\components\\portafoliodashboard\\dashboard\\basiccard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|solutionrelative:reactaspapp.client\\src\\assets\\components\\portafoliodashboard\\dashboard\\basiccard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|c:\\users\\yoshua\\documents\\github\\aspreactapp\\reactaspapp\\reactaspapp.client\\src\\assets\\components\\portafoliodashboard\\dashboard\\dashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|solutionrelative:reactaspapp.client\\src\\assets\\components\\portafoliodashboard\\dashboard\\dashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|c:\\users\\yoshua\\documents\\github\\aspreactapp\\reactaspapp\\reactaspapp.client\\src\\assets\\components\\portafoliodashboard\\encabezado.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|solutionrelative:reactaspapp.client\\src\\assets\\components\\portafoliodashboard\\encabezado.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|c:\\users\\yoshua\\source\\repos\\reactaspapp\\reactaspapp.client\\src\\assets\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|solutionrelative:reactaspapp.client\\src\\assets\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|c:\\users\\yoshua\\source\\repos\\reactaspapp\\reactaspapp.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|solutionrelative:reactaspapp.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|c:\\users\\yoshua\\source\\repos\\reactaspapp\\reactaspapp.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|solutionrelative:reactaspapp.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|c:\\users\\yoshua\\source\\repos\\reactaspapp\\reactaspapp.client\\src\\assets\\components\\persistentdrawerleft.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|c:\\users\\yoshua\\documents\\github\\aspreactapp\\reactaspapp\\reactaspapp.client\\src\\assets\\components\\persistentdrawerleft.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|solutionrelative:reactaspapp.client\\src\\assets\\components\\persistentdrawerleft.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|c:\\users\\yoshua\\source\\repos\\reactaspapp\\reactaspapp.client\\src\\assets\\components\\portafoliodashboard\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|c:\\users\\yoshua\\documents\\github\\aspreactapp\\reactaspapp\\reactaspapp.client\\src\\assets\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|solutionrelative:reactaspapp.client\\src\\assets\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|c:\\users\\yoshua\\documents\\github\\aspreactapp\\reactaspapp\\reactaspapp.client\\src\\assets\\components\\portafoliodashboard\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|solutionrelative:reactaspapp.client\\src\\assets\\components\\portafoliodashboard\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|c:\\users\\yoshua\\source\\repos\\reactaspapp\\reactaspapp.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|c:\\users\\yoshua\\documents\\github\\aspreactapp\\reactaspapp\\reactaspapp.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|solutionrelative:reactaspapp.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|c:\\users\\yoshua\\documents\\github\\aspreactapp\\reactaspapp\\reactaspapp.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|solutionrelative:reactaspapp.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|c:\\users\\yoshua\\documents\\github\\aspreactapp\\reactaspapp\\reactaspapp.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|solutionrelative:reactaspapp.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|c:\\users\\yoshua\\source\\repos\\reactaspapp\\reactaspapp.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|c:\\users\\yoshua\\documents\\github\\aspreactapp\\reactaspapp\\reactaspapp.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|solutionrelative:reactaspapp.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|c:\\users\\yoshua\\source\\repos\\reactaspapp\\reactaspapp.client\\src\\assets\\components\\navbar.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|solutionrelative:reactaspapp.client\\src\\assets\\components\\navbar.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|c:\\users\\yoshua\\source\\repos\\reactaspapp\\reactaspapp.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6C4A2F38-4A93-4902-B879-5B4CF964B558}|reactaspapp.client\\reactaspapp.client.esproj|solutionrelative:reactaspapp.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,37 +78,115 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\ReactAspApp.Server\\Program.cs",
+              "RelativeDocumentMoniker": "ReactAspApp.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\ReactAspApp.Server\\Program.cs",
+              "RelativeToolTip": "ReactAspApp.Server\\Program.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T03:20:27.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\ReactAspApp.Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ReactAspApp.Server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\ReactAspApp.Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ReactAspApp.Server\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-04T03:19:17.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\ReactAspApp.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "ReactAspApp.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\ReactAspApp.Server\\appsettings.json",
+              "RelativeToolTip": "ReactAspApp.Server\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAB7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-04T02:56:28.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Chart1.jsx",
+              "DocumentMoniker": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\reactaspapp.client\\src\\assets\\components\\PortafolioDashboard\\Dashboard\\Chart1.jsx",
+              "RelativeDocumentMoniker": "reactaspapp.client\\src\\assets\\components\\PortafolioDashboard\\Dashboard\\Chart1.jsx",
+              "ToolTip": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\reactaspapp.client\\src\\assets\\components\\PortafolioDashboard\\Dashboard\\Chart1.jsx",
+              "RelativeToolTip": "reactaspapp.client\\src\\assets\\components\\PortafolioDashboard\\Dashboard\\Chart1.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-07-23T03:22:45.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BasicCard.jsx",
+              "DocumentMoniker": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\reactaspapp.client\\src\\assets\\components\\PortafolioDashboard\\Dashboard\\BasicCard.jsx",
+              "RelativeDocumentMoniker": "reactaspapp.client\\src\\assets\\components\\PortafolioDashboard\\Dashboard\\BasicCard.jsx",
+              "ToolTip": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\reactaspapp.client\\src\\assets\\components\\PortafolioDashboard\\Dashboard\\BasicCard.jsx",
+              "RelativeToolTip": "reactaspapp.client\\src\\assets\\components\\PortafolioDashboard\\Dashboard\\BasicCard.jsx",
+              "ViewState": "AQIAAAwAAAAAAAAAAIBJwBQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-07-23T02:35:06.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dashboard.jsx",
+              "DocumentMoniker": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\reactaspapp.client\\src\\assets\\components\\PortafolioDashboard\\Dashboard\\Dashboard.jsx",
+              "RelativeDocumentMoniker": "reactaspapp.client\\src\\assets\\components\\PortafolioDashboard\\Dashboard\\Dashboard.jsx",
+              "ToolTip": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\reactaspapp.client\\src\\assets\\components\\PortafolioDashboard\\Dashboard\\Dashboard.jsx",
+              "RelativeToolTip": "reactaspapp.client\\src\\assets\\components\\PortafolioDashboard\\Dashboard\\Dashboard.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-07-23T02:09:46.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Encabezado.jsx",
-              "DocumentMoniker": "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\reactaspapp.client\\src\\assets\\components\\PortafolioDashboard\\Encabezado.jsx",
+              "DocumentMoniker": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\reactaspapp.client\\src\\assets\\components\\PortafolioDashboard\\Encabezado.jsx",
               "RelativeDocumentMoniker": "reactaspapp.client\\src\\assets\\components\\PortafolioDashboard\\Encabezado.jsx",
-              "ToolTip": "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\reactaspapp.client\\src\\assets\\components\\PortafolioDashboard\\Encabezado.jsx",
+              "ToolTip": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\reactaspapp.client\\src\\assets\\components\\PortafolioDashboard\\Encabezado.jsx",
               "RelativeToolTip": "reactaspapp.client\\src\\assets\\components\\PortafolioDashboard\\Encabezado.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA6AAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAIBJwAkAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-07-22T05:51:31.366Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Main.jsx",
-              "DocumentMoniker": "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\reactaspapp.client\\src\\assets\\components\\PortafolioDashboard\\Main.jsx",
+              "DocumentMoniker": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\reactaspapp.client\\src\\assets\\components\\PortafolioDashboard\\Main.jsx",
               "RelativeDocumentMoniker": "reactaspapp.client\\src\\assets\\components\\PortafolioDashboard\\Main.jsx",
-              "ToolTip": "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\reactaspapp.client\\src\\assets\\components\\PortafolioDashboard\\Main.jsx",
+              "ToolTip": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\reactaspapp.client\\src\\assets\\components\\PortafolioDashboard\\Main.jsx",
               "RelativeToolTip": "reactaspapp.client\\src\\assets\\components\\PortafolioDashboard\\Main.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-07-22T05:41:09.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "main.jsx",
-              "DocumentMoniker": "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\reactaspapp.client\\src\\main.jsx",
+              "DocumentMoniker": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\reactaspapp.client\\src\\main.jsx",
               "RelativeDocumentMoniker": "reactaspapp.client\\src\\main.jsx",
-              "ToolTip": "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\reactaspapp.client\\src\\main.jsx",
+              "ToolTip": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\reactaspapp.client\\src\\main.jsx",
               "RelativeToolTip": "reactaspapp.client\\src\\main.jsx",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
@@ -97,50 +195,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Navbar.jsx",
-              "DocumentMoniker": "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\reactaspapp.client\\src\\assets\\components\\Navbar.jsx",
+              "DocumentMoniker": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\reactaspapp.client\\src\\assets\\components\\Navbar.jsx",
               "RelativeDocumentMoniker": "reactaspapp.client\\src\\assets\\components\\Navbar.jsx",
-              "ToolTip": "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\reactaspapp.client\\src\\assets\\components\\Navbar.jsx",
+              "ToolTip": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\reactaspapp.client\\src\\assets\\components\\Navbar.jsx",
               "RelativeToolTip": "reactaspapp.client\\src\\assets\\components\\Navbar.jsx",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAADcAAAAfAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAIBJwEYAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-07-22T01:02:17.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "App.jsx",
-              "DocumentMoniker": "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\reactaspapp.client\\src\\App.jsx",
+              "DocumentMoniker": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\reactaspapp.client\\src\\App.jsx",
               "RelativeDocumentMoniker": "reactaspapp.client\\src\\App.jsx",
-              "ToolTip": "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\reactaspapp.client\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\reactaspapp.client\\src\\App.jsx",
               "RelativeToolTip": "reactaspapp.client\\src\\App.jsx",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAQwD8AAAAlAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAQwD8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-07-21T22:29:54.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "PersistentDrawerLeft.jsx",
-              "DocumentMoniker": "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\reactaspapp.client\\src\\assets\\components\\PersistentDrawerLeft.jsx",
+              "DocumentMoniker": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\reactaspapp.client\\src\\assets\\components\\PersistentDrawerLeft.jsx",
               "RelativeDocumentMoniker": "reactaspapp.client\\src\\assets\\components\\PersistentDrawerLeft.jsx",
-              "ToolTip": "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\reactaspapp.client\\src\\assets\\components\\PersistentDrawerLeft.jsx",
+              "ToolTip": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\reactaspapp.client\\src\\assets\\components\\PersistentDrawerLeft.jsx",
               "RelativeToolTip": "reactaspapp.client\\src\\assets\\components\\PersistentDrawerLeft.jsx",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADsAAAAnAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAIBJwDsAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-07-22T01:55:13.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "App.css",
-              "DocumentMoniker": "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\reactaspapp.client\\src\\App.css",
+              "DocumentMoniker": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\reactaspapp.client\\src\\App.css",
               "RelativeDocumentMoniker": "reactaspapp.client\\src\\App.css",
-              "ToolTip": "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\reactaspapp.client\\src\\App.css",
+              "ToolTip": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\reactaspapp.client\\src\\App.css",
               "RelativeToolTip": "reactaspapp.client\\src\\App.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -149,24 +247,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Navbar.module.css",
-              "DocumentMoniker": "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\reactaspapp.client\\src\\assets\\components\\Navbar.module.css",
-              "RelativeDocumentMoniker": "reactaspapp.client\\src\\assets\\components\\Navbar.module.css",
-              "ToolTip": "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\reactaspapp.client\\src\\assets\\components\\Navbar.module.css",
-              "RelativeToolTip": "reactaspapp.client\\src\\assets\\components\\Navbar.module.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-22T01:10:56.28Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "index.css",
-              "DocumentMoniker": "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\reactaspapp.client\\src\\index.css",
+              "DocumentMoniker": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\reactaspapp.client\\src\\index.css",
               "RelativeDocumentMoniker": "reactaspapp.client\\src\\index.css",
-              "ToolTip": "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\reactaspapp.client\\src\\index.css",
+              "ToolTip": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\reactaspapp.client\\src\\index.css",
               "RelativeToolTip": "reactaspapp.client\\src\\index.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -175,13 +260,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "package.json",
-              "DocumentMoniker": "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\reactaspapp.client\\package.json",
+              "DocumentMoniker": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\reactaspapp.client\\package.json",
               "RelativeDocumentMoniker": "reactaspapp.client\\package.json",
-              "ToolTip": "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\reactaspapp.client\\package.json",
+              "ToolTip": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\reactaspapp.client\\package.json",
               "RelativeToolTip": "reactaspapp.client\\package.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwA8AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-07-22T00:50:33.424Z",
               "EditorCaption": ""

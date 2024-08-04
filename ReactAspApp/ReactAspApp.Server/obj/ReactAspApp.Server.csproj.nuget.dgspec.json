@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\ReactAspApp.Server\\ReactAspApp.Server.csproj": {}
+    "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\ReactAspApp.Server\\ReactAspApp.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\ReactAspApp.Server\\ReactAspApp.Server.csproj": {
+    "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\ReactAspApp.Server\\ReactAspApp.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\ReactAspApp.Server\\ReactAspApp.Server.csproj",
+        "projectUniqueName": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\ReactAspApp.Server\\ReactAspApp.Server.csproj",
         "projectName": "ReactAspApp.Server",
-        "projectPath": "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\ReactAspApp.Server\\ReactAspApp.Server.csproj",
+        "projectPath": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\ReactAspApp.Server\\ReactAspApp.Server.csproj",
         "packagesPath": "C:\\Users\\yoshua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\ReactAspApp.Server\\obj\\",
+        "outputPath": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\ReactAspApp.Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yoshua\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,6 +49,14 @@
             "Microsoft.AspNetCore.SpaProxy": {
               "target": "Package",
               "version": "[8.*-*, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[8.0.7, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

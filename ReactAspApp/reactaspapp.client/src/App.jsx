@@ -3,10 +3,10 @@ import './App.css';
 import Navbar from './assets/components/Navbar';
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Container from "@mui/material/Container";
-import Box from "@mui/material/Box";
 import PersistentDrawerLeft from './assets/components/PersistentDrawerLeft';
 import Main from './assets/components/PortafolioDashboard/Main.jsx';
-
+import { Box, Typography, Grid } from '@mui/material';
+import Footer from './assets/components/Footer';
 function App() {
     const [open, setOpen] = useState(false);
     const [forecasts, setForecasts] = useState();
@@ -40,41 +40,26 @@ function App() {
                 )}
             </tbody>
         </table>;
-
+    //backgroundColor: { xs: "red", sm: "yellow", md: "green", lg: "blue", xl: "grey" },
     return (
         <BrowserRouter>
-            <Box sx={{
-                display: "flex",
-                flexDirection: "column",
-                p: 0,
-                m: 0,
-            }}>
-                <PersistentDrawerLeft open={open} toggleDrawer={toggleDrawer} />
-                <Container component="div"
-                    sx={{
-                        flex: 1,
-                        display: "flex",
-                        flexDirection: "column",
-                        justifyContent: "space-between",
-                        mb: 4,
-                        mt: 11,
-                        disableGutters: true,
-                        backgroundColor: "white",
-                        borderRadius: "15px",
-                        boxShadow: 3,
-                        minHeight: "100vh",
-                    }}>
-                    <Navbar></Navbar>
-                    <Main></Main>
-                    <h2>Este es un ejemplo de react 18 con Asp.net core 8</h2>
-                    <h1 id="tableLabel">Weather forecast</h1>
-                    <p>This component demonstrates fetching data from the server.</p>
-                    {contents}
-                </Container>
-                
-                    
-                
-        </Box>
+            <Box>
+                <Navbar></Navbar>
+                <Grid container  sx={{ mt: 10 }}>
+                    <Grid item xs={2} sm={2} md={2} lg={2} xl={2} sx={{ height: "900px", backgroundColor: { xs: "purple", sm: "grey", md: "green", lg: "pink", xl: "green" } }}>
+                        <PersistentDrawerLeft open={open} toggleDrawer={toggleDrawer} ></PersistentDrawerLeft>
+                    </Grid>
+                    <Grid item xs={10} sm={10} md={10} lg={10} xl={10} sx={{ ml: {xs: 0} , backgroundColor: { xs: "grey", sm: "yellow", md: "brown", lg: "blue", xl: "purple"} }}>
+                        <Main></Main>
+                        
+                        <p>This component demonstrates fetching data from the server.</p>
+                       {/* {contents}*/}
+                    </Grid>
+                    <Grid item xs={12} sm={12} md={12} lg={12} xl={12} sx={{ textAlign: 'center', backgroundColor: { xs: "grey", sm: "yellow", md: "brown", lg: "blue", xl: "red" } }}>
+                        <Footer></Footer>
+                    </Grid>
+                </Grid>
+            </Box>
         </BrowserRouter>
         
     );

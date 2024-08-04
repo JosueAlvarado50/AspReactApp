@@ -5,8 +5,8 @@ const Encabezado = () => {
     return (
         //backgroundColor: { xs: "red", sm: "yellow", md: "green", lg: "blue", xl: "grey" },
 
-        <Box sx={{ padding: 2, width: { xs: "80%" }, ml: { xs: 9, sm: 7, md: 9, xl: 5 } }}>
-            <Grid container alignItems="center" spacing={2} sx={{  width: {xl: "120%"} } }>
+        <Box sx={{ padding: 2, width: "100%",  backgroundColor: {sm:"red" , xl: "yellow", lg: "blue" } }}>
+            <Grid container alignItems="center" spacing={2} >
                 <Grid item xs={12} sm={12} md={12} xl={4}>
                     <Typography variant="h6">Portfolio Dashboard</Typography>
                 </Grid>

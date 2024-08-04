@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "V3Lyg35bHz9pd+KPzTiUynxj8rboL/a0j4Sed37Loro=",
+  "Hash": "lms6tXEmW8dX5txviGiGKOytHBp/cWJds3feM1MABKI=",
   "Source": "ReactAspApp.Server",
   "BasePath": "_content/ReactAspApp.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\yoshua\\source\\repos\\ReactAspApp\\reactaspapp.client\\reactaspapp.client.esproj",
+      "Identity": "C:\\Users\\yoshua\\Documents\\Github\\AspReactApp\\ReactAspApp\\reactaspapp.client\\reactaspapp.client.esproj",
       "Version": 2,
       "Source": "reactaspapp.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
