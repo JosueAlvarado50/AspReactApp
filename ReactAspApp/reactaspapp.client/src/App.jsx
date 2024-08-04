@@ -7,6 +7,8 @@ import PersistentDrawerLeft from './assets/components/PersistentDrawerLeft';
 import Main from './assets/components/PortafolioDashboard/Main.jsx';
 import { Box, Typography, Grid } from '@mui/material';
 import Footer from './assets/components/Footer';
+import EmpresaForm from './assets/components/Empresa/EmpresaForm';
+import Empresa from './assets/components/Empresa/Empresa.jsx';
 function App() {
     const [open, setOpen] = useState(false);
     const [forecasts, setForecasts] = useState();
@@ -46,16 +48,21 @@ function App() {
             <Box>
                 <Navbar></Navbar>
                 <Grid container  sx={{ mt: 10 }}>
-                    <Grid item xs={2} sm={2} md={2} lg={2} xl={2} sx={{ height: "900px", backgroundColor: { xs: "purple", sm: "grey", md: "green", lg: "pink", xl: "green" } }}>
+                    <Grid item xs={2} sm={2} md={2} lg={2} xl={2} sx={{ height: "900px" }}>
                         <PersistentDrawerLeft open={open} toggleDrawer={toggleDrawer} ></PersistentDrawerLeft>
                     </Grid>
-                    <Grid item xs={10} sm={10} md={10} lg={10} xl={10} sx={{ ml: {xs: 0} , backgroundColor: { xs: "grey", sm: "yellow", md: "brown", lg: "blue", xl: "purple"} }}>
-                        <Main></Main>
-                        
+                    <Grid item xs={10} sm={10} md={10} lg={10} xl={10} sx={{ ml: { xs: 0 } }}>
+                        <Routes>
+                            <Route path="/" element={<Main />} />
+                            <Route path="/Empresa" element={<Empresa />} />
+                            <Route path="/Empresa-registro" element={<EmpresaForm />} />
+                        </Routes>
+                        {/*   <Main></Main>
+
                         <p>This component demonstrates fetching data from the server.</p>
-                       {/* {contents}*/}
+                       {contents}*/}
                     </Grid>
-                    <Grid item xs={12} sm={12} md={12} lg={12} xl={12} sx={{ textAlign: 'center', backgroundColor: { xs: "grey", sm: "yellow", md: "brown", lg: "blue", xl: "red" } }}>
+                    <Grid item xs={12} sm={12} md={12} lg={12} xl={12} sx={{ textAlign: 'center' }}>
                         <Footer></Footer>
                     </Grid>
                 </Grid>

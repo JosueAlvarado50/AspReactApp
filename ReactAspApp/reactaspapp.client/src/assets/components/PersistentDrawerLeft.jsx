@@ -164,6 +164,34 @@ export default function PersistentDrawerLeft({ open, toggleDrawer }) {
                             </Link>
                         </StyledListItem>
                     </List>
+                    <Divider sx={{ borderColor: "#FFFFFF" }} />
+                    <List>
+                        {open && (
+                            <Typography variant="h7" sx={{ pl: 1, pt: 2, color: "#black", fontWeight: 'bold' }}>
+                                Empresas
+                            </Typography>
+                        )}
+                        <StyledListItem
+                            button
+                            selected={location.pathname === "/Empresa"}
+                        >
+                            <Link
+                                to="/Empresa"
+                                style={{
+                                    textDecoration: "none",
+                                    color: "inherit",
+                                    display: "flex",
+                                    alignItems: "center",
+                                    width: "100%",
+                                }}
+                            >
+                                <ListItemIcon>
+                                    <BusinessIcon sx={{ color: "grey" }} />
+                                </ListItemIcon>
+                                {open && <ListItemText primary="Empresas" />}
+                            </Link>
+                        </StyledListItem>
+                    </List>
                 </Box>
             </Drawer>
             <IconButton
