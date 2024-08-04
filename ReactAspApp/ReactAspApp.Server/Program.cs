@@ -1,5 +1,11 @@
+using Microsoft.EntityFrameworkCore;
+using ReactAspApp.Server.Datos;
+
 var builder = WebApplication.CreateBuilder(args);
 
+//Configuracion de la conexion a la base de datos local
+builder.Services.AddDbContext<ApplicationDbContext>(opciones =>
+    opciones.UseSqlServer(builder.Configuration.GetConnectionString("ConexionSql")));
 // Add services to the container.
 
 builder.Services.AddControllers();
