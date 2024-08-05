@@ -7,7 +7,7 @@ function Empresa() {
         <Box
             sx={{
                 mb:10,
-                width: { xs: "98%" },
+                width: { xs: "95%" },
                 display: "flex",
                 flexDirection: "column",
                 height: "85vh", // Hace que el contenedor ocupe toda la altura de la ventana
@@ -24,7 +24,7 @@ function Empresa() {
                     startIcon={<AddIcon />}
                     variant="contained"
                     component={Link}
-                    to="/add-department"
+                    to="/Empresa-registro"
                     sx={{
 
                         fontSize: { xs: "10px" },

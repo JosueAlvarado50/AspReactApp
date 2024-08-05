@@ -44,14 +44,14 @@ const ListaEmpresa = () => {
     const [deletedD, setDeletedD] = useState(false);
 
     useEffect(() => {
-         EmpresaList()
+        EmpresaList()
             .then((response) => {
                 setEmpresas(response.data);
                 setDeletedD(false);
             })
             .catch((error) => {
                 console.error(error);
-            }); 
+            });
     }, [deletedD]);
 
     function handleEdit(id) {
@@ -77,7 +77,6 @@ const ListaEmpresa = () => {
                 mt: { xs: 2, sm: 2, md: 2, lg: 2, xl: 2 },
             }}
             component={Paper}
-            
             elevation={6}
         >
             <Table sx={{ minWidth: 400 }} aria-label="customized table">
@@ -139,41 +138,41 @@ const ListaEmpresa = () => {
                             <StyledTableCell align="center">
                                 {emp.estatus ? 'Activado' : 'Desactivado'}
                             </StyledTableCell>
-                            
-                                <StyledTableCell align="center">
-                                    <Box
-                                        sx={{
-                                            display: "flex",
-                                            justifyContent: "center",
-                                            gap: 1,
-                                            flexDirection: {
-                                                xs: "column", // Layout de columna para pantallas pequeñas
-                                                sm: "row", // Layout de fila para pantallas más grandes
-                                            },
-                                        }}
-                                    >
-                                        <Button
-                                            sx={{ fontSize: { xs: "8px" } }}
-                                            variant="contained"
-                                            color="primary"
-                                            startIcon={<EditIcon sx={{ width: { xs: "15px" } }} />}
+
+                            <StyledTableCell align="center">
+                                <Box
+                                    sx={{
+                                        display: "flex",
+                                        justifyContent: "center",
+                                        gap: 1,
+                                        flexDirection: {
+                                            xs: "column", // Layout de columna para pantallas pequeñas
+                                            sm: "row", // Layout de fila para pantallas más grandes
+                                        },
+                                    }}
+                                >
+                                    <Button
+                                        sx={{ fontSize: { xs: "8px" } }}
+                                        variant="contained"
+                                        color="primary"
+                                        startIcon={<EditIcon sx={{ width: { xs: "15px" } }} />}
                                         onClick={() => handleEdit(emp.id)}
-                                        >
-                                            Editar
-                                        </Button>
+                                    >
+                                        Editar
+                                    </Button>
 
                                     <Button
                                         sx={{ fontSize: { xs: "8px" }, backgroundColor: "red" }}
-                                            variant="contained"
-                                            color="secondary"
-                                            startIcon={<DeleteIcon sx={{ width: { xs: "15px" } }} />}
+                                        variant="contained"
+                                        color="secondary"
+                                        startIcon={<DeleteIcon sx={{ width: { xs: "15px" } }} />}
                                         onClick={() => handleDelete(emp.id)}
-                                        >
-                                            Eliminar
-                                        </Button>
-                                    </Box>
-                                </StyledTableCell>
-                           
+                                    >
+                                        Eliminar
+                                    </Button>
+                                </Box>
+                            </StyledTableCell>
+
                         </StyledTableRow>
                     ))}
                 </TableBody>

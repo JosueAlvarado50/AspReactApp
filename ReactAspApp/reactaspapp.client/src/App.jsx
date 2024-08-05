@@ -7,6 +7,7 @@ import PersistentDrawerLeft from './assets/components/PersistentDrawerLeft';
 import Main from './assets/components/PortafolioDashboard/Main.jsx';
 import { Box, Typography, Grid } from '@mui/material';
 import Footer from './assets/components/Footer';
+import EmpresaCrear from './assets/components/Empresa/EmpresaCrear';
 import EmpresaForm from './assets/components/Empresa/EmpresaForm';
 import Empresa from './assets/components/Empresa/Empresa.jsx';
 import EmpresaDetalle from './assets/components/Empresa/EmpresaDetalle'
@@ -21,29 +22,7 @@ function App() {
         setOpen(!open);
     };
 
-    const contents = forecasts === undefined
-        ? <p><em>Loading... Please refresh once the ASP.NET backend has started. See <a href="https://aka.ms/jspsintegrationreact">https://aka.ms/jspsintegrationreact</a> for more details.</em></p>
-        : <table className="table table-striped" aria-labelledby="tableLabel">
-            <thead>
-                <tr>
-                    <th>Date</th>
-                    <th>Temp. (C)</th>
-                    <th>Temp. (F)</th>
-                    <th>Summary</th>
-                </tr>
-            </thead>
-            <tbody>
-                {forecasts.map(forecast =>
-                    <tr key={forecast.date}>
-                        <td>{forecast.date}</td>
-                        <td>{forecast.temperatureC}</td>
-                        <td>{forecast.temperatureF}</td>
-                        <td>{forecast.summary}</td>
-                    </tr>
-                )}
-            </tbody>
-        </table>;
-    //backgroundColor: { xs: "red", sm: "yellow", md: "green", lg: "blue", xl: "grey" },
+  
     return (
         <BrowserRouter>
             <Box>
@@ -56,7 +35,7 @@ function App() {
                         <Routes>
                             <Route path="/" element={<Main />} />
                             <Route path="/Empresa" element={<Empresa />} />
-                            <Route path="/Empresa-registro" element={<EmpresaForm />} />
+                            <Route path="/Empresa-registro" element={<EmpresaCrear />} />
                             <Route path="/Empresa-editar/:id" element={<EmpresaDetalle />} />
                         </Routes>
                         {/*   <Main></Main>

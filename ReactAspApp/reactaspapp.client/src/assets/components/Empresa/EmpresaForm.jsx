@@ -17,7 +17,7 @@ import Snackbar from "@mui/material/Snackbar";
 import MuiAlert from "@mui/material/Alert";
 import { CircularProgress } from "@mui/material";
 import BusinessIcon from "@mui/icons-material/Business";
-import {   FormControl, Select, MenuItem, InputLabel } from '@mui/material';
+import { FormControl, Select, MenuItem, InputLabel } from '@mui/material';
 
 function Copyright(props) {
     return (
@@ -82,12 +82,12 @@ const EmpresaForm = () => {
         event.preventDefault();
         const newErrors = {
             nombre: form.nombre === "",
-            razon_social: form.razon_social  === "",
-            rfc: form.rfc  === "",
-            direccion_fiscal: form.direccion_fiscal  === "",
-            email: form.email  === "",
-            telefono: form.telefono  === "",
-            estatus: form.estatus  === "",
+            razon_social: form.razon_social === "",
+            rfc: form.rfc === "",
+            direccion_fiscal: form.direccion_fiscal === "",
+            email: form.email === "",
+            telefono: form.telefono === "",
+            estatus: form.estatus === "",
         };
 
         setErrors(newErrors);
@@ -98,30 +98,7 @@ const EmpresaForm = () => {
             setOpenSnackbar(true);
         } else {
             setLoading(true);
-            {/*
-            loginAPICall(form)
-                .then((response) => {
-                    console.log(response.data);
-                    console.log("Login successfuly");
-
-                    //const token = "Basic" + window.btoa(form.usernameOrEmail + ":" + form.password);
-                    const token = "Bearer " + response.data.accessToken;
-                    const role = response.data.role;
-                    storedToken(token);
-                    saveLoggedInUser(form.usernameOrEmail, role);
-
-                    navigator("/");
-                    window.location.reload(false);
-                })
-                .catch((error) => {
-                    console.log(error);
-                    setSnackbarMessage("Registration failed. Please try again.");
-                    setOpenSnackbar(true);
-                })
-                .finally(() => {
-                    setLoading(false);
-                });
-        */}
+            //añadir servicio de crear empresa
         }
     }
 
@@ -252,38 +229,21 @@ const EmpresaForm = () => {
                                 error={errors.telefono}
                                 helperText={errors.telefono ? "telefono is required." : ""}
                             />
-                           {/* <TextField
+                            <InputLabel htmlFor="select1">Estatus *</InputLabel>
+                            <Select
                                 margin="normal"
-                                required
-                                fullWidth
                                 id="estatus"
-                                label="Estatus"
+                                fullWidth
                                 name="estatus"
-                                autoComplete="estatus"
-                                autoFocus
                                 value={form.estatus}
                                 onChange={handleChange}
                                 error={errors.estatus}
                                 helperText={errors.estatus ? "estatus is required." : ""}
-                            /> */}
-                            
-                                <InputLabel htmlFor="select1">Estatus *</InputLabel>
-                                <Select
-                                    margin="normal"
-                                id="estatus"
-                                fullWidth
-                                    name="estatus"
-                                    value={form.estatus}
-                                    onChange={handleChange}
-                                    error={errors.estatus}
-                                    helperText={errors.estatus ? "estatus is required." : ""}
-                                    sx={{ minWidth: 100 }}
-                                >
-                                    <MenuItem value={10}>Activado</MenuItem>
-                                    <MenuItem value={20}>Desactivado</MenuItem>
-                                </Select>
-                            
-                            
+                                sx={{ minWidth: 100 }}
+                            >
+                                <MenuItem value={10}>Activado</MenuItem>
+                                <MenuItem value={20}>Desactivado</MenuItem>
+                            </Select>
                             <Button
                                 type="submit"
                                 fullWidth
@@ -310,8 +270,6 @@ const EmpresaForm = () => {
                                     }}
                                 />
                             )}
-                            
-                            
                             <Snackbar
                                 open={openSnackbar}
                                 autoHideDuration={6000}
@@ -330,11 +288,8 @@ const EmpresaForm = () => {
                     </Box>
                 </Grid>
             </Grid>
-        </ThemeProvider>    
-    
+        </ThemeProvider>
     );
-
 };
-
 
 export default EmpresaForm;

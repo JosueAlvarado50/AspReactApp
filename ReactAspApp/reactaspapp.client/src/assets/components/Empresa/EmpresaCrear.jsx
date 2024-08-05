@@ -18,12 +18,12 @@ import MuiAlert from "@mui/material/Alert";
 import { CircularProgress } from "@mui/material";
 import BusinessIcon from "@mui/icons-material/Business";
 import { FormControl, Select, MenuItem, InputLabel } from '@mui/material';
-import { getEmpresaById, updateEmpresa } from '../../../Services/EmpresaService';
+import { createEmpresa } from '../../../Services/EmpresaService';
 
 
 const defaultTheme = createTheme();
 
-const EmpresaDetalle = () => {
+const EmpresaCrear = () => {
 
     const { id } = useParams();
     const navigator = useNavigate();
@@ -32,7 +32,6 @@ const EmpresaDetalle = () => {
     const [snackbarMessage, setSnackbarMessage] = useState("");
 
     const [form, setForm] = useState({
-        id: '',
         nombre: '',
         razon_social: '',
         rfc: '',
@@ -43,7 +42,6 @@ const EmpresaDetalle = () => {
     });
 
     const [errors, setErrors] = useState({
-        id: false,
         nombre: false,
         razon_social: false,
         rfc: false,
@@ -52,18 +50,6 @@ const EmpresaDetalle = () => {
         telefono: false,
         estatus: false,
     });
-
-    useEffect(() => {
-        getEmpresaById(id)
-            .then((response) => {
-                setForm(response.data);
-            })
-            .catch((error) => {
-                console.error(error);
-                setSnackbarMessage("Fallo en recuperar la empresa.");
-                setOpenSnackbar(true);
-            });
-    }, [id]);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -99,10 +85,10 @@ const EmpresaDetalle = () => {
         } else {
             setLoading(true);
 
-            updateEmpresa(id, { ...form, estatus: form.estatus }) // Envío del formulario con estatus ya en booleano
+            createEmpresa({ ...form, estatus: form.estatus }) // Envío del formulario con estatus ya en booleano
                 .then((response) => {
                     console.log(response.data);
-                    console.log("Empresa actualizada");
+                    console.log("Empresa creada");
                     navigator("/Empresa");
                 })
                 .catch((error) => {
@@ -162,7 +148,7 @@ const EmpresaDetalle = () => {
                             </Grid>
                             <Grid item >
                                 <Typography component="h1" variant="h5">
-                                    Detalle de la Empresa
+                                    Añadir nueva Empresa
                                 </Typography>
                             </Grid>
                         </Grid>
@@ -203,7 +189,7 @@ const EmpresaDetalle = () => {
                                         id="razon_social"
                                         autoComplete="razon_social"
                                         error={errors.razon_social}
-                                        helperText={errors.razon_social ? "razon_social is required." : ""}
+                                        helperText={errors.razon_social ? "razon social is required." : ""}
                                     />
                                 </Grid>
                                 <Grid item xs={12} sm={12} md={6} lg={4} xl={4} >
@@ -272,7 +258,7 @@ const EmpresaDetalle = () => {
                                         id="direccionFiscal"
                                         autoComplete="direccion_fiscal"
                                         error={errors.direccion_fiscal}
-                                        helperText={errors.direccion_fiscal ? "direccion_fiscal is required." : ""}
+                                        helperText={errors.direccion_fiscal ? "direccion fiscal is required." : ""}
                                     />
                                 </Grid>
                                 <Grid item xs={12} sm={12} md={6} lg={4} xl={4}>
@@ -315,7 +301,7 @@ const EmpresaDetalle = () => {
                                         borderRadius: "25px",
                                     }}
                                 >
-                                    Actualizar
+                                    Submit
                                 </Button>
                             </Box>
                             {loading && (
@@ -356,4 +342,4 @@ const EmpresaDetalle = () => {
 };
 
 
-export default EmpresaDetalle;
+export default EmpresaCrear;
