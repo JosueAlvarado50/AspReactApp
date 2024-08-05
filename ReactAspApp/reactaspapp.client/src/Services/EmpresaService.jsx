@@ -19,14 +19,14 @@ export const getEmpresaById = (id) => {
     });
 };
 
-export const createEmpresa = (department) => {
-    return axios.post(REST_API_BASE_URL, department, {
+export const createEmpresa = (empresa) => {
+    return axios.post(REST_API_BASE_URL, empresa, {
         headers: headers,
     });
 };
 
-export const updateEmpresa = (id, department) => {
-    return axios.put(REST_API_BASE_URL + "/" + id, department, {
+export const updateEmpresa = (id, empresa) => {
+    return axios.put(REST_API_BASE_URL + "/" + id, empresa, {
         headers: headers,
     });
 };

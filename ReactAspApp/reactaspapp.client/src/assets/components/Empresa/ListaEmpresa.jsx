@@ -11,7 +11,7 @@ import { Box, Button } from "@mui/material";
 import EditIcon from "@mui/icons-material/Edit";
 import DeleteIcon from "@mui/icons-material/Delete";
 import { useEffect, useState } from "react";
-import { EmpresaList } from "../../../Services/EmpresaService";
+import { EmpresaList, deleteEmpresa } from "../../../Services/EmpresaService";
 
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
@@ -55,111 +55,18 @@ const ListaEmpresa = () => {
     }, [deletedD]);
 
     function handleEdit(id) {
-        navigator(`/editar-empresa/${id}`);
+        navigator(`/Empresa-editar/${id}`);
     }
 
     function handleDelete(id) {
-       {/* deleteDepartment(id)
+        deleteEmpresa(id)
             .then(() => {
                 setDeletedD(true); // Trigger re-fetch of departments after deletion
             })
             .catch((error) => {
                 console.error(error);
-            }); */}
+            });
     }
-
-    const empresas = [
-        {
-            "nombre": "Empresa ABC",
-            "razon_social": "ABC S.A. de C.V.",
-            "rfc": "ABC123456789",
-            "direccion_fiscal": "Calle Falsa 123, Ciudad de México, México",
-            "email": "contacto@empresaabc.com",
-            "telefono": "+52 55 1234 5678",
-            "estatus": true
-        },
-        {
-            "nombre": "Tecnologías XYZ",
-            "razon_social": "Tecnologías XYZ S.A.",
-            "rfc": "XYZ987654321",
-            "direccion_fiscal": "Av. Siempre Viva 456, Monterrey, México",
-            "email": "info@xyztech.com",
-            "telefono": "+52 81 8765 4321",
-            "estatus": true
-        },
-        {
-            "nombre": "Comercio 123",
-            "razon_social": "Comercio 123 Ltd.",
-            "rfc": "COM112233445",
-            "direccion_fiscal": "Blvd. Industrias 789, Guadalajara, México",
-            "email": "ventas@comercio123.com",
-            "telefono": "+52 33 1122 3344",
-            "estatus": false
-        },
-        {
-            "nombre": "Servicios JKL",
-            "razon_social": "Servicios JKL S.A. de C.V.",
-            "rfc": "JKL665544332",
-            "direccion_fiscal": "Calle de la Amargura 101, Puebla, México",
-            "email": "servicios@jkl.com",
-            "telefono": "+52 222 3344 5566",
-            "estatus": true
-        },
-        {
-            "nombre": "Innovación MNO",
-            "razon_social": "Innovación MNO S.A.",
-            "rfc": "MNO223344556",
-            "direccion_fiscal": "Av. Revolución 111, Tijuana, México",
-            "email": "contacto@innovacionmno.com",
-            "telefono": "+52 664 7788 9900",
-            "estatus": false
-        },
-        {
-            "nombre": "Soluciones DEF",
-            "razon_social": "Soluciones DEF S.A. de C.V.",
-            "rfc": "DEF998877665",
-            "direccion_fiscal": "Av. Insurgentes 202, Cancún, México",
-            "email": "info@solucionesdef.com",
-            "telefono": "+52 998 1122 3344",
-            "estatus": true
-        },
-        {
-            "nombre": "Constructora UVW",
-            "razon_social": "Constructora UVW S.A.",
-            "rfc": "UVW776655443",
-            "direccion_fiscal": "Calle Principal 303, León, México",
-            "email": "ventas@construccionesuvw.com",
-            "telefono": "+52 477 4455 6677",
-            "estatus": true
-        },
-        {
-            "nombre": "Agropecuaria GHI",
-            "razon_social": "Agropecuaria GHI S.A. de C.V.",
-            "rfc": "GHI554433221",
-            "direccion_fiscal": "Carretera a la Esperanza 404, Mérida, México",
-            "email": "contacto@agropecuariaghi.com",
-            "telefono": "+52 999 5566 7788",
-            "estatus": false
-        },
-        {
-            "nombre": "Distribuciones RST",
-            "razon_social": "Distribuciones RST Ltd.",
-            "rfc": "RST332211009",
-            "direccion_fiscal": "Av. Las Palmas 505, San Luis Potosí, México",
-            "email": "ventas@distribucionesrst.com",
-            "telefono": "+52 444 6677 8899",
-            "estatus": true
-        },
-        {
-            "nombre": "Electrónica OPQ",
-            "razon_social": "Electrónica OPQ S.A. de C.V.",
-            "rfc": "OPQ001122334",
-            "direccion_fiscal": "Calle Tech 606, Ciudad Juárez, México",
-            "email": "info@electronicaopq.com",
-            "telefono": "+52 656 9988 7766",
-            "estatus": false
-        }
-    ];
 
     return (
         <TableContainer

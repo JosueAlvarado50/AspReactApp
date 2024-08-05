@@ -9,6 +9,7 @@ import { Box, Typography, Grid } from '@mui/material';
 import Footer from './assets/components/Footer';
 import EmpresaForm from './assets/components/Empresa/EmpresaForm';
 import Empresa from './assets/components/Empresa/Empresa.jsx';
+import EmpresaDetalle from './assets/components/Empresa/EmpresaDetalle'
 function App() {
     const [open, setOpen] = useState(false);
     const [forecasts, setForecasts] = useState();
@@ -56,6 +57,7 @@ function App() {
                             <Route path="/" element={<Main />} />
                             <Route path="/Empresa" element={<Empresa />} />
                             <Route path="/Empresa-registro" element={<EmpresaForm />} />
+                            <Route path="/Empresa-editar/:id" element={<EmpresaDetalle />} />
                         </Routes>
                         {/*   <Main></Main>
 
