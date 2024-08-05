@@ -11,6 +11,8 @@ import { Box, Button } from "@mui/material";
 import EditIcon from "@mui/icons-material/Edit";
 import DeleteIcon from "@mui/icons-material/Delete";
 import { useEffect, useState } from "react";
+import { EmpresaList } from "../../../Services/EmpresaService";
+
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
     [`&.${tableCellClasses.head}`]: {
@@ -37,19 +39,19 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 }));
 
 const ListaEmpresa = () => {
-    const [department, setDepartment] = useState([]);
+    const [Empresas, setEmpresas] = useState([]);
     const navigator = useNavigate();
     const [deletedD, setDeletedD] = useState(false);
 
     useEffect(() => {
-        {/* departmentList()
+         EmpresaList()
             .then((response) => {
-                setDepartment(response.data);
+                setEmpresas(response.data);
                 setDeletedD(false);
             })
             .catch((error) => {
                 console.error(error);
-            }); */}
+            }); 
     }, [deletedD]);
 
     function handleEdit(id) {
@@ -162,7 +164,7 @@ const ListaEmpresa = () => {
     return (
         <TableContainer
             sx={{
-                width: { xs: "95%" },
+                width: { xs: "100%" },
                 borderRadius: "10px",
                 ml: { xs: 0, sm: 3, md: 3, lg: 3, xl: 0 },
                 mt: { xs: 2, sm: 2, md: 2, lg: 2, xl: 2 },
@@ -202,31 +204,31 @@ const ListaEmpresa = () => {
                     </TableRow>
                 </TableHead>
                 <TableBody>
-                    {empresas.map((dep) => (
-                        <StyledTableRow key={dep.id}>
+                    {Empresas.map((emp) => (
+                        <StyledTableRow key={emp.id}>
                             <StyledTableCell component="th" scope="row">
-                                {dep.id}
+                                {emp.id}
                             </StyledTableCell>
                             <StyledTableCell align="center">
-                                {dep.nombre}
+                                {emp.nombre}
                             </StyledTableCell>
                             <StyledTableCell align="center">
-                                {dep.razon_social}
+                                {emp.razon_social}
                             </StyledTableCell>
                             <StyledTableCell align="center">
-                                {dep.rfc}
+                                {emp.rfc}
                             </StyledTableCell>
                             <StyledTableCell align="center">
-                                {dep.direccion_fiscal}
+                                {emp.direccion_fiscal}
                             </StyledTableCell>
                             <StyledTableCell align="center">
-                                {dep.email}
+                                {emp.email}
                             </StyledTableCell>
                             <StyledTableCell align="center">
-                                {dep.telefono}
+                                {emp.telefono}
                             </StyledTableCell>
                             <StyledTableCell align="center">
-                                {dep.estatus}
+                                {emp.estatus ? 'Activado' : 'Desactivado'}
                             </StyledTableCell>
                             
                                 <StyledTableCell align="center">
@@ -246,7 +248,7 @@ const ListaEmpresa = () => {
                                             variant="contained"
                                             color="primary"
                                             startIcon={<EditIcon sx={{ width: { xs: "15px" } }} />}
-                                            onClick={() => handleEdit(dep.id)}
+                                        onClick={() => handleEdit(emp.id)}
                                         >
                                             Editar
                                         </Button>
@@ -256,7 +258,7 @@ const ListaEmpresa = () => {
                                             variant="contained"
                                             color="secondary"
                                             startIcon={<DeleteIcon sx={{ width: { xs: "15px" } }} />}
-                                            onClick={() => handleDelete(dep.id)}
+                                        onClick={() => handleDelete(emp.id)}
                                         >
                                             Eliminar
                                         </Button>

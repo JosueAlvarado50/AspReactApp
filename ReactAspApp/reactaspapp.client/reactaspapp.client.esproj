@@ -11,5 +11,6 @@
   <ItemGroup>
     <Folder Include="src\assets\components\Empresa\" />
     <Folder Include="src\assets\components\PortafolioDashboard\Dashboard\" />
+    <Folder Include="src\Services\" />
   </ItemGroup>
 </Project>

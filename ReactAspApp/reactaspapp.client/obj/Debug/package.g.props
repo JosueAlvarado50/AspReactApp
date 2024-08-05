@@ -14,7 +14,7 @@
     <PackageJsonDependenciesMuiIconsMaterial Condition="$(PackageJsonDependenciesMuiIconsMaterial) == ''">^5.16.4</PackageJsonDependenciesMuiIconsMaterial>
     <PackageJsonDependenciesMuiMaterial Condition="$(PackageJsonDependenciesMuiMaterial) == ''">^5.16.4</PackageJsonDependenciesMuiMaterial>
     <PackageJsonDependenciesMuiXCharts Condition="$(PackageJsonDependenciesMuiXCharts) == ''">^7.11.0</PackageJsonDependenciesMuiXCharts>
-    <PackageJsonDependenciesAxios Condition="$(PackageJsonDependenciesAxios) == ''">^1.7.2</PackageJsonDependenciesAxios>
+    <PackageJsonDependenciesAxios Condition="$(PackageJsonDependenciesAxios) == ''">^1.7.3</PackageJsonDependenciesAxios>
     <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">^18.3.1</PackageJsonDependenciesReact>
     <PackageJsonDependenciesReactDom Condition="$(PackageJsonDependenciesReactDom) == ''">^18.3.1</PackageJsonDependenciesReactDom>
     <PackageJsonDependenciesReactRouterDom Condition="$(PackageJsonDependenciesReactRouterDom) == ''">^6.25.1</PackageJsonDependenciesReactRouterDom>
