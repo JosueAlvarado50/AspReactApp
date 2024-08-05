@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Box, Button } from "@mui/material";
 import ListaEmpresa from './ListaEmpresa';
 import AddIcon from '@mui/icons-material/Add';
-function Department() {
+function Empresa() {
     return (
         <Box
             sx={{
@@ -30,8 +30,8 @@ function Department() {
                         fontSize: { xs: "10px" },
                         textAlign: "center",
                         width: {
-                            xs: "10%",
-                            sm: "10%",
+                            xs: "15%",
+                            sm: "15%",
                         },
                         mr:8,
                         mt: 1,
@@ -48,4 +48,4 @@ function Department() {
     );
 }
 
-export default Department;
+export default Empresa;

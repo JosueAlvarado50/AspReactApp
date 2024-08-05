@@ -17,11 +17,9 @@ import {
     ArrowBack as ArrowBackIcon,
     ArrowForward as ArrowForwardIcon,
 } from "@mui/icons-material";
-import GroupIcon from "@mui/icons-material/Group";
 import BusinessIcon from "@mui/icons-material/Business";
-import EngineeringIcon from "@mui/icons-material/Engineering";
 import { Link, useLocation } from "react-router-dom";
-import { styled } from "@mui/system";
+
 import FastfoodIcon from "@mui/icons-material/Fastfood";
 import ComputerIcon from '@mui/icons-material/Computer';
 import WebIcon from '@mui/icons-material/Web';

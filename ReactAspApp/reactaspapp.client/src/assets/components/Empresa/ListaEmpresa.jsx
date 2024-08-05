@@ -77,6 +77,8 @@ const ListaEmpresa = () => {
                 mt: { xs: 2, sm: 2, md: 2, lg: 2, xl: 2 },
             }}
             component={Paper}
+            
+            elevation={6}
         >
             <Table sx={{ minWidth: 400 }} aria-label="customized table">
                 <TableHead>
@@ -160,8 +162,8 @@ const ListaEmpresa = () => {
                                             Editar
                                         </Button>
 
-                                        <Button
-                                            sx={{ fontSize: { xs: "8px" } }}
+                                    <Button
+                                        sx={{ fontSize: { xs: "8px" }, backgroundColor: "red" }}
                                             variant="contained"
                                             color="secondary"
                                             startIcon={<DeleteIcon sx={{ width: { xs: "15px" } }} />}
